@@ -29,7 +29,6 @@ html,
 body {
   height: 100%;
   background-color: rgb(134, 134, 134);
-  background: url(images/mx5\ nacht\ nfs\ background\ blur.jpg)no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,6 +42,12 @@ h1 {
   text-shadow: 1px 1px 2px black; ;
 }
 
+p {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black; ;
+}
+
 h3 {
   font-family: 'Roboto', sans-serif;
   color: #fff;
@@ -52,6 +57,12 @@ h3 {
 
 .cover-container {
   max-width: 50em;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  
 }
 
 
@@ -110,6 +121,7 @@ h3 {
   width: 100%;
   height: 140%;
 }
+
 
 /*
  * Cover
